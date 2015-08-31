@@ -6,6 +6,17 @@
     android:orientation="vertical">
 
 
+    <TextView
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="TITLE"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        />
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
